@@ -1,0 +1,46 @@
+
+
+.animeButton{
+  width: 100px;
+  height: 50px;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animeButton::before{
+content: "";
+background-image: conic-gradient(
+  #ff0052 20deg ,transparent 120deg);
+width: 280%;
+height: 280%;
+position: absolute;
+animation: rotate 1.8s linear infinite;
+}
+.animeButton::after{
+  content:"View";
+  overflow: hidden;
+  width: 98px;
+  height: 48px;
+  background: #101010;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff0052;
+  letter-spacing: 1.5px;
+  box-shadow:inset 5px 5px 10px #0000008c;
+}
+@keyframes rotate{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
