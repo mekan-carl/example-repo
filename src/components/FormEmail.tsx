@@ -20,7 +20,11 @@ const Formm = () => {
           <Form.Control type="hidden" name="_captcha" value="false" />
 
           {/* redirecting to success page */}
-          <Form.Control type="hidden" name="_next" value="" />
+          <Form.Control
+            type="hidden"
+            name="_next"
+            value="https://example-xi-bay.vercel.app/success"
+          />
 
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>

@@ -6,7 +6,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/succes" element={<Success />} />
+          <Route path="/success" element={<Success />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
