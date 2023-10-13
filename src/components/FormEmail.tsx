@@ -9,17 +9,14 @@ const Formm = () => {
           action="https://formsubmit.co/e477550535f79d690b9e7ec2493d5840"
           method="post"
         >
-          {/* Honeypot Catchs spammer name="_honey" */}
           <Form.Control
             type="hidden"
             name="_honey"
             style={{ display: "none" }}
             value="false"
           />
-          {/* Disable Capcha  => robot auth */}
           <Form.Control type="hidden" name="_captcha" value="false" />
 
-          {/* redirecting to success page */}
           <Form.Control
             type="hidden"
             name="_next"
