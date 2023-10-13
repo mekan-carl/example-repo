@@ -6,7 +6,7 @@ const Formm = () => {
     <>
       <Container>
         <Form
-          action="https://formsubmit.co/maksagent90@gmail.com"
+          action="https://formsubmit.co/e477550535f79d690b9e7ec2493d5840"
           method="post"
         >
           {/* Honeypot Catchs spammer name="_honey"
