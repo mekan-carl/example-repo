@@ -1,7 +1,10 @@
-import { Button, Container } from "react-bootstrap";
+import { Alert, Button, Container } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 
 const Formm = () => {
+  function handleClick() {
+    <Alert variant="info">pls wait</Alert>;
+  }
   return (
     <>
       <Container>
@@ -56,7 +59,7 @@ const Formm = () => {
               rows={3}
             />
           </Form.Group>
-          <Button variant="info" type="submit">
+          <Button variant="info" type="submit" onClick={handleClick}>
             Submit
           </Button>
         </Form>
