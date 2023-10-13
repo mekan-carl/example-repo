@@ -9,22 +9,22 @@ const Formm = () => {
           action="https://formsubmit.co/maksagent90@gmail.com"
           method="post"
         >
-          {/* Honeypot Catchs spammer name="_honey" */}
+          {/* Honeypot Catchs spammer name="_honey"
           <Form.Control
             type="hidden"
             name="_honey"
             style={{ display: "none" }}
             value="false"
           />
-          {/* Disable Capcha  => robot auth */}
+          Disable Capcha  => robot auth
           <Form.Control type="hidden" name="_captcha" value="false" />
 
-          {/* redirecting to success page */}
+          redirecting to success page
           <Form.Control
             type="hidden"
             name="_next"
             value="https://example-xi-bay.vercel.app/success"
-          />
+          /> */}
 
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
