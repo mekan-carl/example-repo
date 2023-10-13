@@ -10,7 +10,7 @@ const Formm = () => {
           method="post"
         >
           <Form.Control
-            type="hidden"
+            type="text"
             name="_honey"
             style={{ display: "none" }}
             value="false"
